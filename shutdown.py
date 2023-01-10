@@ -1,5 +1,6 @@
 import time
 import pyautogui
+
 of = pyautogui
 reiniciar = int(input("digite quantos minutos você deseja reiniciar o seu pc:  "))
 of.hotkey('win', 'r')
